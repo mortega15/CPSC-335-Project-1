@@ -1,16 +1,16 @@
 # CPSC-335 Project 1
 
-__Group Members: Maria Ortega and__
+__Group Members: Maria Ortega and Neal Vaghasia__
 
                                         1. Introduction
 
 For this project two algorithms were mathematically and experimentally analyzed. The three components that were considered for this project were:
 1. A written mathematical analysis. 
 2. Implementation of the algorithms in C++ (to specific C++17)
-3. A written empirical analysis (graphs)
+3. A written empirical analysis (scatter plot graphs)
 
                                         2. Mathematical Analysis
-For this part of the project,we looked at the two exercises 3-14(a) and 3-14(b). As seen below (a) dealt with finding the mean of a random list of numbers, while (b) dealt with finding the square matrix of an integer. 
+For this part of the project,we looked at the two exercises 3-14(a) and 3-14(b). As seen below (a) dealt with finding the mean of a random list of numbers, while (b) dealt with finding the square matrix of an integer. For both we needed to find running time (T(_n_)) and the efficiency class (O(f(_n_))) that belonged to the respective T(_n_).
 
 ![image](https://user-images.githubusercontent.com/79822470/120994724-9c0b9480-c739-11eb-888e-49b384c7dc86.png)
 ![image](https://user-images.githubusercontent.com/79822470/120995060-e856d480-c739-11eb-9a34-f8b10b58215a.png)
@@ -25,4 +25,7 @@ For this part of the project, we simply implemented the concept of the two previ
 
                                         4. Empirical Analysis
 
-For this part of the project, we gathered and recorded some of timing data by running a few trials for each of the two problems. We record the values of _n_ that we used and the elapsed time in a excel sheet. Once the information was gathered, we generated a scatterplot with a trendline as to observed trials.
+For this part of the project, we gathered and recorded some of timing data by running a few trials for each of the two problems. We record the values of _n_ that we used and the elapsed time in a excel sheet. Once the information was gathered, we generated the two scatterplots with a trendline (each with it's respected problem). We observed the graph to see if and how it related to the mathematical analysis we did prior for each problem. This was done by checking the movement of the graph:
+  
+![image](https://user-images.githubusercontent.com/79822470/121056105-b6159900-c772-11eb-9cb0-c6424573e0ec.png)
+
